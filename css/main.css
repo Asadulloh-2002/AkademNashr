@@ -270,7 +270,7 @@ body {
     display: flex;
 }
 .site-footer-top-social-media-link:hover {
-    background-color: #ff7500;
+    fill: #ff7500;
 }
 .site-footer-hr {
     border: none;
@@ -296,8 +296,8 @@ body {
     line-height: 18.75px;
     color: #000;
 }
-.site-footer-bottom-item-link:hover {
-    color: #ff7500;
+svg:hover path {
+    fill: #ff7500;
 }
 .site-footer-bottom-item-link:active {
     opacity: 0.6;
